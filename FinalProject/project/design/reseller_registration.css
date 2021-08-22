@@ -1,0 +1,65 @@
+body {
+ background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+  background-size: 100% auto;
+
+}
+.comp{
+	color: red;
+	font-size: 30px;
+
+}
+.link{
+	color: purple;
+	font-size: 30px;
+	font-weight: bold;
+}
+.subtitle{
+	font-weight: bold;
+	color: purple;
+	font-size: 30px;
+}
+.title{
+	color: red;
+	text-align: left;
+	font-weight: bold;
+
+}
+
+.registration_form{
+   
+        border-color: white;
+        background: tomato;
+        border-radius: 20px;
+        padding: 50px;
+        width: 300px;
+        margin: 50px auto;
+        box-shadow: 5px 6px gray;
+
+
+
+
+} 
+
+.subtitle{
+	
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+	
+	
+}
+.container{
+
+	
+        text-align: center;
+        border-radius: 10px;
+        color: purple;
+
+}
+.select {
+        width: 200px;
+        margin: 10px;
+    }
+    

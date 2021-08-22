@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #555;
+   background: #ecf0f3;
+}
+.login_form{
+    width: 500px;
+    height: 600px;
+    background: #ecf0f3;
+    border-radius: 40px;
+    box-shadow: 10px 10px 15px #cbced1,
+                -10px -10px 15px white;
+    padding: 50px 35px 35px 35px;
+}
+.logo{
+    background: url("../image/logo.png");
+    height: 100px;
+    width: 180px;
+    background-size: cover;
+    border-radius: 200px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 12px #393b3f,
+                -6px -6px 12px white;
+   
+    
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: .3px;
+}
+.subtitle
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 1px;
+}
+.fields{
+    
+    width:350px;
+  
+   padding-top: 60px;
+   padding-left: 80px;
+    
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 10px 20px 10px;
+}
+.username, .userpassword{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px #cbced1,
+               inset -8px -8px 15px white;
+}
+.nameicon, .passwordicon{
+    height: 22px;
+    margin: 0px 8px -8px 25px;
+}
+.btn{
+    width: 300px;
+   text-align: center;
+    background: chartreuse;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.bottom{
+
+    text-align: center;
+    margin-top: 30px;
+}
+.bottom a{
+    text-decoration: none;
+    color: gray;
+}
+.password_error{
+    color:red;
+}

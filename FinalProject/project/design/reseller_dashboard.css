@@ -1,0 +1,41 @@
+body{
+    
+
+ background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+  background-size: 100% auto;
+
+
+}
+img{
+	border-radius: 20px;
+	
+	width: 50%
+}
+.title{
+	font-size: 200%;
+	color: red;
+	text-align: center;
+	width:120%;
+
+}
+.right{
+	color: purple;
+	text-align: center;
+}
+.footer{
+	margin-bottom: 100px;
+	color: purple;
+}
+
+.left ul li {
+    list-style: none;
+    background: tomato;
+    margin:5px 400px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    
+}

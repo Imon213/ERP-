@@ -1,0 +1,36 @@
+body {
+ background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+  background-size: 100% auto;
+  
+}
+
+img{
+    border-radius: 20px;
+    
+    width: 10%
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#btn{
+     margin-top: 12px;
+         border: 1px solid #000;
+         background-color: #08c;
+         padding: 5px 15px 5px 15px;
+          border-radius: 100px;
+}
+.title{
+  text-align: center;
+  color: red;
+}
+.column2{
+  text-align: center;
+  margin: -180px 100px;
+  color: navy-blue;
+  font-weight: bold;
+  font-size: 20px;
+}

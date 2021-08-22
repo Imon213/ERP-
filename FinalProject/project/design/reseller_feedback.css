@@ -1,0 +1,52 @@
+body {background-image: url("../img/bg.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+
+ 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  
+}
+
+input[type=submit]:hover {
+
+}
+img{
+    border-radius: 20px;
+    
+    width: 50%
+}
+
+.container {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+  font-size: 20px;
+  width: 600px;
+  height: 300px;
+  color: purple;
+
+}
+h3{
+  color:purple;
+  font-weight: bold;
+ 
+}
+.title{
+  color: red;
+}

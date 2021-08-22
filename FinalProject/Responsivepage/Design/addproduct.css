@@ -1,0 +1,133 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 800px 100px;
+    grid-template-areas:
+    "header header"
+    "left right"
+    "footer footer";
+}
+.header{
+    background: silver;
+     grid-area: header;
+    
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.left{
+    background:wheat;
+     grid-area: left;
+    text-align: center;
+}
+.right{
+    background: whitesmoke;
+     grid-area: right;
+}
+.footer{
+    background: khaki;
+     grid-area: footer;
+     text-align: center;
+}
+.logo-image{
+    height: 90px;
+    width: 150px;
+    padding: 10px;
+    border-radius:20px;
+}
+.header ul li{
+    display: inline-block;
+    margin: 0 10px;
+   list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    background: turquoise;
+    padding: 10px 20px;
+}
+.home:hover{
+    background: yellow;
+    color: tomato;
+}
+.logout:hover{
+    background: yellow;
+    color: tomato;
+}
+.title{
+    font-family: sans-serif;
+    color:wheat;
+}
+ .header h3{
+     font-family: sans-serif;
+     margin-left: 100px;
+     color: darkcyan;
+ }
+.left ul li {
+    list-style: none;
+    background: teal;
+    margin: 30px 50px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+}
+.left ul li:hover{
+    background: thistle;
+}
+.left ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+   
+}
+
+.footer h3{
+    margin-top: 20px;
+}
+.right .input-field{
+    width: 40%;
+    margin:50px auto;
+    text-align: center;
+    background: silver;
+    padding: 20px;
+    border-radius: 15px;
+    
+  
+   
+}
+#image, #name, #id, #price, #details, #type{
+    font-size: 17px;
+    background: none;
+    color:darkblue;
+  
+}
+#image, #name, #id, #price, #type{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#submit{
+    padding: 15px 70px;
+    font-size: 17px;
+    border-radius: 15px;
+    background: teal;
+    color: wheat;
+   
+}
+#title{
+    font-size: 30px;
+    color: teal;
+}
+.password_error
+{
+    margin:0 100px;
+}
+
